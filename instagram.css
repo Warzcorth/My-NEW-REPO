@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.phone{
+    margin: 30px;
+}
+.phone-img{
+    width: 27em;
+    height: 38em;
+}
+.instagram-img{
+    width: 150px;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-1{
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(173, 173, 173);
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.fb-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb{
+    height: 15px;
+    width: 15px;
+    padding-right: 2px;
+}
+a{
+    text-decoration: none;
+    color: rgb(35, 84, 245);
+}
+.sign-bg{
+    box-shadow: 0px 0px 2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: white;
+}
+.sign{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb-login{
+    font-size: 12px;
+}
+.forgot{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(12, 107, 248);
+}
+.get{
+    text-align: center;
+    color: black;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.play{
+    width: 170px;
+    height: 70px;
+}
+.apple{
+    width: 135px;
+    height: 55px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px grey;
+}
+input:focus{
+    outline: none;
+}
+
+.or small{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 0px; 
+    font-family: 'Arial'; 
+}
+.or small:before, .or small:after {
+    display: block;
+    margin: 3px;
+    content: '';
+    height: 1px;
+    background-color: grey;
+    width: 150px;
+
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(96, 162, 248);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px grey;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.sign-up{
+    padding: 3px;
+    font-weight: bold;
+    color: rgb(96, 162, 248);
+}
+.my-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.li{
+    padding-right: 20px;
+    color: grey;
+}
+.select{
+    margin-right: 30px;
+    border: none;
+
+}
+
+@media only screen and (max-width:770px){
+    .container{
+        display: block;
+        
+    }
+    .phone{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .phone-img{
+        width: 20em;
+        height: 30em;
+    }
+    .main-input{
+        flex-basis: 100%;
+        display: block;
+    }
+    .input-1{
+        flex-basis: 100%;
+        background-color: white;
+        box-shadow: 0px 0px 20px rgb(50, 50, 40);
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 350px;
+        display: block;
+        border-radius: 5px;
+    }
+    .sign-bg{
+        box-shadow: 0px 0px 20px rgb(50, 50, 40);
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        width: 350px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .get{
+        font-size: 10px;
+        margin-right: 150px;
+        display: block;
+        margin-left: 50px;
+    }
+    .app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+        margin-right: 100px;
+    }
+    .play{
+        width: 145px;
+        height: 57px;
+    }
+    .apple{
+        width: 115px;
+        height: 45px;
+    }
+    .down-list{
+        font-size: 8px;
+        margin-left: -120px;
+        margin-top: 300px;
+    }
+    .li{
+        padding-right: 5px;
+        color: grey;    
+    }
+    .select{
+        font-size: 8px;
+    }
+    body{
+        /* background: linear-gradient(90deg, blue, black);
+        background: -webkit-linear-gradient(right, red, yellow, blue, black); */
+        background: linear-gradient(to right, rgba(30, 20, 10, 5),
+        rgb(5, 20, 167)
+        );
+    }
+}
